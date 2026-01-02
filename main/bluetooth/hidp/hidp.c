@@ -18,7 +18,7 @@ typedef void (*bt_hid_hdlr_t)(struct bt_dev *device, struct bt_hci_pkt *bt_hci_a
 typedef void (*bt_hid_cmd_t)(struct bt_dev *device, void *report);
 
 const uint8_t bt_hid_led_dev_id_map[] = {
-    0x1, 0x2, 0x4, 0x8, 0x3, 0x6, 0xC
+    0x4, 0x8, 0x3, 0x6, 0xC, 0x1, 0x2
 };
 
 static const struct bt_name_type bt_name_type[] = {
